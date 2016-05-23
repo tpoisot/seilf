@@ -22,8 +22,11 @@ var path = require('path').dirname(require.main.filename);
 var lib = new hylla.Library(path);
 
 seilf.get('/', function(req, res) {
+  var entries = lib.entries.map(function(x) {
+    return x.content
+  })
   res.render('main', {
-    lib: lib
+    lib: entries
   })
 });
 

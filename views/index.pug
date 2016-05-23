@@ -3,6 +3,7 @@ html
   head
     link(rel='stylesheet', href='/main.css')
     script(src='/js/jquery.js')
+    script(src='/js/underscore.js')
     block title
       title seilf
   body
@@ -10,12 +11,13 @@ html
       block info
         div#infobox
         span#footer
-          p #{lib.entries.length} entries total
+          p #{lib.length} entries total
 
     div#main
       block main
       block search
         span#search
           input.titlequery(type="text" placeholder="Search by title")
+    script(src='/js/commonFunctions.js')
     script(src='/js/showMain.js')
     script(src='/js/searchTitle.js')

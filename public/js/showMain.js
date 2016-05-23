@@ -1,13 +1,3 @@
-function formatAuthorName(n) {
-  var printedAs;
-  if (n.family) {
-    printedAs = n.family;
-  } else {
-    printedAs = n.literal;
-  }
-  return printedAs;
-}
-
 function showMain(id) {
   $.ajax({
     type: 'GET',
