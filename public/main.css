@@ -64,14 +64,17 @@ li#entry:hover {
 }
 #infobox span {
   margin-bottom: 25px;
+  display: block;
+}
+#infobox .author {
+  text-transform: lowercase;
+  font-variant: small-caps;
 }
 #infobox .title {
   font-weight: 100;
   font-size: 30px;
-  display: block;
 }
 #infobox .in {
-  display: block;
   font-weight: bold;
 }
 #infobox .id {

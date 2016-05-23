@@ -1,3 +1,13 @@
+function formatAuthorName(n) {
+  var printedAs;
+  if (n.family) {
+    printedAs = n.family;
+  } else {
+    printedAs = n.literal;
+  }
+  return printedAs;
+}
+
 function showMain(id) {
   $.ajax({
     type: 'GET',
@@ -13,6 +23,19 @@ function showMain(id) {
       if (data['container-title']) {
         var $in = $("<span/>").addClass("in").html(data['container-title']);
         $('#infobox').append($in);
+      }
+
+      if (data.author) {
+
+        var printedAuthorName = formatAuthorName(data.author[0]);
+        if (data.author.length > 2) {
+          printedAuthorName += ' et al.';
+        }
+        if (data.author.length == 2) {
+          printedAuthorName += ' & ' + formatAuthorName(data.author[1]);
+        }
+        var $aut = $("<span/>").addClass("author").html(printedAuthorName);
+        $('#infobox').append($aut);
       }
 
       if (data.id) {

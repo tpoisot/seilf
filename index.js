@@ -6,6 +6,7 @@ var hylla = require('hylla');
 
 var seilf = express();
 seilf.set('view engine', 'pug');
+seilf.locals.pretty = true;
 
 var publicDir = require('path').join(__dirname, '/public');
 
