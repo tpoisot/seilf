@@ -1,0 +1,116 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        23
+      ]
+    ],
+    "date-time": "2015-12-23T04:00:55Z",
+    "timestamp": 1450843255353
+  },
+  "reference-count": 62,
+  "publisher": "Wiley-Blackwell",
+  "issue": "3",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 2034,
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2015-09-01T00:00:00Z",
+        "timestamp": 1441065600000
+      },
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+    }
+  ],
+  "DOI": "10.1111/j.1095-8312.2009.01381.x",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2010,
+        2,
+        5
+      ]
+    ],
+    "date-time": "2010-02-05T13:24:32Z",
+    "timestamp": 1265376272000
+  },
+  "page": "559-569",
+  "source": "CrossRef",
+  "title": "Putative speciation events in Lamellodiscus (Monogenea: Diplectanidae) assessed by a morphometric approach",
+  "prefix": "http://id.crossref.org/prefix/10.1111",
+  "volume": "99",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "POISOT",
+      "given": "TIMOTHÉE"
+    },
+    {
+      "affiliation": [],
+      "family": "DESDEVISES",
+      "given": "YVES"
+    }
+  ],
+  "member": "http://id.crossref.org/member/311",
+  "published-online": {
+    "date-parts": [
+      [
+        2010,
+        2,
+        5
+      ]
+    ]
+  },
+  "container-title": "Biological Journal of the Linnean Society",
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "unspecified",
+      "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1095-8312.2009.01381.x"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2015,
+        10,
+        21
+      ]
+    ],
+    "date-time": "2015-10-21T02:10:00Z",
+    "timestamp": 1445393400000
+  },
+  "score": 1,
+  "subtitle": [
+    "PUTATIVE SPECIATION EVENTS IN LAMELLODISCUS"
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2010,
+        2,
+        5
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1111/j.1095-8312.2009.01381.x",
+  "ISSN": [
+    "0024-4066",
+    "1095-8312"
+  ],
+  "subject": [
+    "Ecology, Evolution, Behavior and Systematics"
+  ],
+  "id": "pois10pse"
+}

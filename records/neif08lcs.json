@@ -1,0 +1,82 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        20
+      ]
+    ],
+    "date-time": "2015-12-20T16:55:00Z",
+    "timestamp": 1450630500559
+  },
+  "reference-count": 10,
+  "publisher": "Walter de Gruyter GmbH",
+  "issue": "3",
+  "published-print": {
+    "date-parts": [
+      [
+        2008,
+        1,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.2478/s11686-008-0048-1",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2008,
+        9,
+        13
+      ]
+    ],
+    "date-time": "2008-09-13T04:22:15Z",
+    "timestamp": 1221279735000
+  },
+  "source": "CrossRef",
+  "title": "Lamellodiscus crampus sp. nov. (Monogenea, Diplectanidae), a parasite of Dentex maroccanus (Teleostei, Sparidae) from off Tunisia",
+  "prefix": "http://id.crossref.org/prefix/10.2478",
+  "volume": "53",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Neifar",
+      "given": "Lassâd"
+    }
+  ],
+  "member": "http://id.crossref.org/member/374",
+  "container-title": "Acta Parasitologica",
+  "deposited": {
+    "date-parts": [
+      [
+        2015,
+        8,
+        1
+      ]
+    ],
+    "date-time": "2015-08-01T09:08:16Z",
+    "timestamp": 1438420096000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2008,
+        1,
+        1
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.2478/s11686-008-0048-1",
+  "ISSN": [
+    "1896-1851",
+    "1230-2821"
+  ],
+  "subject": [
+    "Parasitology"
+  ],
+  "id": "neif08lcs"
+}

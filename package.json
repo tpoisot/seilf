@@ -1,0 +1,19 @@
+{
+  "name": "seilf",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-stylus": "^0.1.0",
+    "hylla": "0.0.1",
+    "nib": "^1.1.0",
+    "pug": "^2.0.0-alpha7",
+    "stylus": "^0.54.5"
+  }
+}

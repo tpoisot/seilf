@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/main.css')
+    script(src='/js/jquery.js')
+    script(src='/js/showMain.js')
+    block title
+      title sheilf
+  body
+    div#bar
+      block info
+        div#infobox
+      span#footer
+        p #{lib.entries.length} entries total
+
+    div#main
+      block main

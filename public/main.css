@@ -1,0 +1,79 @@
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  -webkit-box-sizing: padding-box;
+  -moz-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+html,
+body {
+  font-family: 'Noto Sans UI', sans-serif;
+  margin: 0px 0px !important;
+  padding: 0px 0px !important;
+  height: 100%;
+  min-height: 100%;
+}
+#bar {
+  padding: 20px;
+  background-color: #3f9acd;
+  color: #fff;
+  min-height: 100%;
+  width: 35%;
+  position: fixed;
+}
+#bar #footer {
+  position: absolute;
+  bottom: 20px;
+}
+#main {
+  color: #535353;
+  width: 65%;
+  right: 0px;
+  position: absolute;
+  top: 0px;
+}
+ul,
+li {
+  list-style: none;
+}
+li#entry {
+  font-style: 20px;
+  line-height: 25px;
+  height: 50px !important;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+li#entry:hover {
+  color: #000;
+}
+#main .title {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+#main .in {
+  font-style: italic;
+}
+#main .id {
+  font-family: "Hack", monospace;
+  float: right;
+  color: #a4a4a4;
+}
+#infobox span {
+  margin-bottom: 25px;
+}
+#infobox .title {
+  font-weight: 100;
+  font-size: 30px;
+  display: block;
+}
+#infobox .in {
+  display: block;
+  font-weight: bold;
+}
+#infobox .id {
+  font-family: "Hack", monospace;
+}

@@ -1,0 +1,8 @@
+extends index
+block main
+  ul#entries
+  each entry in lib.keys()
+    li#entry(onClick="showMain('" + entry + "')")
+      span.title= lib.entry(entry).content.title
+      span.in= lib.entry(entry).content['container-title']
+      span.id= entry
