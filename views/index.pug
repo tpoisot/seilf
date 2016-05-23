@@ -9,11 +9,13 @@ html
     div#bar
       block info
         div#infobox
-      span#footer
-        input.titlequery(type="text" placeholder="Search by title")
-        p #{lib.entries.length} entries total
+        span#footer
+          p #{lib.entries.length} entries total
 
     div#main
       block main
+      block search
+        span#search
+          input.titlequery(type="text" placeholder="Search by title")
     script(src='/js/showMain.js')
     script(src='/js/searchTitle.js')
