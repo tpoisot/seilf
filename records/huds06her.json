@@ -1,0 +1,125 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        21
+      ]
+    ],
+    "date-time": "2015-12-21T22:58:56Z",
+    "timestamp": 1450738736215
+  },
+  "reference-count": 0,
+  "publisher": "Elsevier BV",
+  "issue": "7",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2006,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2006-07-01T00:00:00Z",
+        "timestamp": 1151712000000
+      },
+      "URL": "http://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2006,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.tree.2006.04.007",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2006,
+        5,
+        20
+      ]
+    ],
+    "date-time": "2006-05-20T11:22:30Z",
+    "timestamp": 1148124150000
+  },
+  "page": "381-385",
+  "source": "CrossRef",
+  "title": "Is a healthy ecosystem one that is rich in parasites?",
+  "prefix": "http://id.crossref.org/prefix/10.1016",
+  "volume": "21",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Hudson",
+      "given": "Peter J."
+    },
+    {
+      "affiliation": [],
+      "family": "Dobson",
+      "given": "Andrew P."
+    },
+    {
+      "affiliation": [],
+      "family": "Lafferty",
+      "given": "Kevin D."
+    }
+  ],
+  "member": "http://id.crossref.org/member/78",
+  "container-title": "Trends in Ecology & Evolution",
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/xml",
+      "URL": "http://api.elsevier.com/content/article/PII:S0169534706001522?httpAccept=text/xml"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/plain",
+      "URL": "http://api.elsevier.com/content/article/PII:S0169534706001522?httpAccept=text/plain"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2015,
+        11,
+        22
+      ]
+    ],
+    "date-time": "2015-11-22T02:04:49Z",
+    "timestamp": 1448157889000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2006,
+        7
+      ]
+    ]
+  },
+  "alternative-id": [
+    "S0169534706001522"
+  ],
+  "URL": "http://dx.doi.org/10.1016/j.tree.2006.04.007",
+  "ISSN": [
+    "0169-5347"
+  ],
+  "subject": [
+    "Ecology, Evolution, Behavior and Systematics"
+  ],
+  "id": "huds06her"
+}

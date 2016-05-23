@@ -67,6 +67,11 @@ li.entry:hover {
 #infobox span {
   margin-bottom: 25px;
   display: block;
+  width: 100%;
+}
+#infobox span .fa {
+  color: #c9c9c9;
+  margin-right: 10px;
 }
 #infobox .author {
   text-transform: lowercase;
@@ -79,8 +84,13 @@ li.entry:hover {
 #infobox .in {
   font-weight: bold;
 }
-#infobox .id {
+#infobox .id,
+#infobox .doi,
+#infobox .url {
   font-family: "Fira Mono", monospace;
+}
+#infobox .id {
+  font-weight: bold;
 }
 #search {
   background-color: #e6e6e6;
@@ -91,8 +101,13 @@ li.entry:hover {
   width: 65%;
   padding: 20px;
 }
+#search .fa {
+  font-weight: bold;
+  color: #000;
+  padding-right: 20px;
+}
 #search input {
   border: 0px solid #fff;
   background-color: transparent;
-  width: 100%;
+  width: 90%;
 }

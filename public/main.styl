@@ -66,6 +66,10 @@ li.entry
   span
     margin-bottom: 25px
     display: block
+    width: 100%
+    .fa
+      color: rgb(201, 201, 201)
+      margin-right: 10px
   .author
     text-transform: lowercase;
     font-variant: small-caps;
@@ -74,8 +78,10 @@ li.entry
     font-size: 30px
   .in
     font-weight: bold
-  .id
+  .id, .doi, .url
     font-family: mono, monospace
+  .id
+    font-weight: bold
 
 #search
   background-color: rgb(230, 230, 230)
@@ -85,7 +91,11 @@ li.entry
   display: block
   width: 65%
   padding: 20px
+  .fa
+    font-weight: bold
+    color: black
+    padding-right: 20px
   input
     border: 0px solid white
     background-color: transparent
-    width: 100%
+    width: 90%

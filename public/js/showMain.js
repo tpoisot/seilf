@@ -30,6 +30,7 @@ function showMain(id) {
 
       if (data.id) {
         var $id = $("<span/>").addClass("id").html(data.id);
+        $id.prepend('<i class="fa fa-key fa-fw" aria-hidden="true"></i>')
         $('#infobox').append($id);
       }
     }
