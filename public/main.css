@@ -149,3 +149,6 @@ li.entry:hover {
   background-color: transparent;
   width: 90%;
 }
+#search input:focus {
+  color: #3f9acd;
+}

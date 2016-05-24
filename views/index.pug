@@ -13,8 +13,9 @@ html
         a(href="#" id="gohome" title="Home")
           span#home
             i(class="fa fa-home fa-fw" aria-hidden="true")
-        span#lookup
-          i(class="fa fa-search fa-fw" aria-hidden="true")
+        a(href="#" id="freeform" title="New reference (full-text search)")
+          span#lookup
+            i(class="fa fa-search fa-fw" aria-hidden="true")
         span#add
           i(class="fa fa-plus fa-fw" aria-hidden="true")
         a(href="/default.json" download title="Download the entire file")
@@ -31,9 +32,14 @@ html
       block main
       block search
         span#search
-          i(class="fa fa-filter fa-fw" aria-hidden="true")
-          input.titlequery(type="text" placeholder="Search by title")
+          span.searchByTitle
+            i(class="fa fa-filter fa-fw" aria-hidden="true")
+            input.titlequery(type="text" placeholder="Search by title")
+          span.addFreeForm
+            i(class="fa fa-search fa-fw" aria-hidden="true")
+            input.freeform(type="text" placeholder="Type-in a free-form citation")
     script(src='/js/commonFunctions.js')
     script(src='/js/showMain.js')
+    script(src='/js/addFreeForm.js')
     script(src='/js/searchTitle.js')
     script(src='/js/ui.js')

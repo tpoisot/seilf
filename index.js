@@ -1,6 +1,7 @@
 var express = require('express');
 var stylus = require('express-stylus');
 var nib = require('nib');
+var request = require('request');
 
 var hylla = require('hylla');
 
@@ -48,6 +49,23 @@ seilf.get('/default.json', function(req, res) {
     res.json(data);
   }
 })
+
+// Crossref full text search
+seilf.get('/crossref/:query', function(req, res) {
+  console.log(req.params.query);
+  var crossrefUrl = "http://search.labs.crossref.org/dois?q="
+  var crossrefResult = request(crossrefUrl + encodeURIComponent(req.params.query),
+    function(error, response, body) {
+      console.log(response.statusCode);
+      if (!error && response.statusCode == 200) {
+        res.json(JSON.parse(body));
+      }
+    })
+})
+
+seilf.get('/doi/:doi', function(req, res) {
+
+});
 
 seilf.listen(3000, function() {
   console.log('seilf listening on port 3000');
