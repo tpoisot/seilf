@@ -1,0 +1,95 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        27
+      ]
+    ],
+    "date-time": "2015-12-27T02:23:48Z",
+    "timestamp": 1451183028070
+  },
+  "reference-count": 12,
+  "publisher": "Cambridge University Press (CUP)",
+  "issue": "02",
+  "published-print": {
+    "date-parts": [
+      [
+        1971,
+        4
+      ]
+    ]
+  },
+  "DOI": "10.1017/s0031182000071420",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2009,
+        6,
+        5
+      ]
+    ],
+    "date-time": "2009-06-05T17:10:56Z",
+    "timestamp": 1244221856000
+  },
+  "page": "179",
+  "source": "CrossRef",
+  "title": "A quantitative approach to parasitism",
+  "prefix": "http://id.crossref.org/prefix/10.1017",
+  "volume": "62",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Crofton",
+      "given": "H. D."
+    }
+  ],
+  "member": "http://id.crossref.org/member/56",
+  "published-online": {
+    "date-parts": [
+      [
+        2009,
+        4,
+        6
+      ]
+    ]
+  },
+  "container-title": "Parasitology",
+  "deposited": {
+    "date-parts": [
+      [
+        2011,
+        8,
+        21
+      ]
+    ],
+    "date-time": "2011-08-21T09:56:12Z",
+    "timestamp": 1313920572000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        1971,
+        4
+      ]
+    ]
+  },
+  "alternative-id": [
+    "S0031182000071420"
+  ],
+  "URL": "http://dx.doi.org/10.1017/s0031182000071420",
+  "ISSN": [
+    "0031-1820",
+    "1469-8161"
+  ],
+  "subject": [
+    "Animal Science and Zoology",
+    "Parasitology",
+    "Infectious Diseases"
+  ],
+  "id": "crof71qap"
+}

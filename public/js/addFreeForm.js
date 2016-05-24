@@ -14,15 +14,16 @@ $(".freeform").keyup(_.debounce(function() {
       $("#infobox").append("<h2>Search results</h2>");
       for (var i = 0; i < Math.min(10, data.length); i++) {
 
-        var $p = $("<p/>").addClass("crossrefResult").html(data[
+        var $p = $("<p/>").addClass(
+          "crossrefResult").html(data[
           i].fullCitation);
 
         var doi = encodeURIComponent(data[i].doi.replace(
-          "http://dx.doi.org/", ''));
+          "http://dx.doi.org/", '')).toLowerCase();
 
         var $addlink = $("<a/>", {
           href: "#",
-          onClick: "addRefByDOI('" + doi + "')",
+          onClick: "addRefByDoi('" + doi + "')",
           html: "<i class='fa fa-fw fa-plus'></i>",
         }).addClass("crossrefAdd");
 

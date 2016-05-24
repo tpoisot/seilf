@@ -64,7 +64,28 @@ seilf.get('/crossref/:query', function(req, res) {
 })
 
 seilf.get('/doi/:doi', function(req, res) {
-
+  var doi = req.params.doi;
+  if (doi) {
+    // Check doi unicity
+    var doi_match = lib.entries.filter(function(e, i, a) {
+      if (e.doi())  {
+        return e.doi().trim().toLowerCase() == doi.trim().toLowerCase();
+      } else {
+        return false;
+      }
+    });
+    // Is there a match?
+    if (doi_match.length > 0) {
+      // Note that this is transparent for the user -- it give the same
+      // output if it's a new, or existing, reference.
+      res.json(doi_match[0].content);
+    } else {
+      // If new, return the ID after adding it.
+      var infos = hylla.doi.refFromDoi(doi);
+      var ref = lib.new(infos);
+      res.json(lib.entry(ref).content);
+    }
+  }
 });
 
 seilf.listen(3000, function() {
