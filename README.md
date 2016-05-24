@@ -16,4 +16,25 @@ supervisor index.js
 By the way... *hylla* is Swedish for shelf, and *seilf* is Irish for the exact
 same thing.
 
+## Obligatory screenshot (outdated)
+
 ![seilf screenshot](seilf.png)
+
+## Screencast!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H02sZBSbyaM" frameborder="0" allowfullscreen></iframe>
+
+## How to use it
+
+- Click on any entry from the list to see the details
+- Click on the download icon to get the `default.json` file ready to be used with `pandoc`
+- Click on the magnifying glass icon to add refences by copyin/pasting from anywhere
+- Type in the top bar to filter the entries based on the title
+
+## Roadmap
+
+- Add entries manually
+- Search by author
+- Statistics
+- Edition
+- PDF download

@@ -17,7 +17,7 @@ body {
   min-height: 100%;
 }
 #bar {
-  background-color: #3f9acd;
+  background-color: #008abd;
   color: #fff;
   min-height: 100%;
   width: 35%;
@@ -88,7 +88,7 @@ li.entry:hover {
 #main .id {
   font-family: "Fira Mono", monospace, monospace;
   float: right;
-  color: #a4a4a4;
+  color: #e6e6e6;
 }
 #infobox {
   padding: 20px;
@@ -162,5 +162,5 @@ li.entry:hover {
   width: 90%;
 }
 #search input:focus {
-  color: #3f9acd;
+  color: #008abd;
 }
