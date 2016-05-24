@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,300italic,300,400italic,500,500italic,700,700italic&subset=latin,greek");
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=latin,greek");
-a {
-  border-bottom: 1px dashed #fff;
-  color: #fff;
-  text-decoration: none;
-}
-a:hover {
-  border-bottom: 1px solid #fff;
-}
 * {
   margin: 0px 0px;
   padding: 0px 0px;
@@ -38,10 +30,13 @@ body {
 }
 #bar #buttons {
   width: 100%;
-  color: #000;
   background-color: #e6e6e6;
 }
+#bar #buttons a:visited {
+  color: none;
+}
 #bar #buttons span {
+  color: #000;
   width: 20% !important;
   display: inline-block;
   line-height: 20px;
@@ -94,6 +89,14 @@ li.entry:hover {
 }
 #infobox {
   padding: 20px;
+}
+#infobox a {
+  border-bottom: 1px dashed #fff;
+  color: #fff;
+  text-decoration: none;
+}
+#infobox a:hover {
+  border-bottom: 1px solid #fff;
 }
 #infobox span {
   margin-bottom: 25px;

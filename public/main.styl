@@ -7,13 +7,6 @@ mono = "Fira Mono", monospace
 accent = rgb(63, 154, 205)
 mellow = rgb(230, 230, 230)
 
-a
-  border-bottom: 1px dashed white
-  color: white
-  text-decoration: none
-  &:hover
-    border-bottom: 1px solid white
-
 *
   margin: 0px 0px
   padding: 0px 0px
@@ -40,9 +33,12 @@ html, body
     padding: 20px
   #buttons
     width: 100%
-    color:  black
     background-color: mellow
+    a
+      &:visited
+        color: none
     span
+      color:  black
       width: 20% !important
       display: inline-block;
       line-height: 20px
@@ -90,6 +86,12 @@ li.entry
 
 #infobox
   padding: 20px
+  a
+    border-bottom: 1px dashed white
+    color: white
+    text-decoration: none
+    &:hover
+      border-bottom: 1px solid white
   span
     margin-bottom: 25px
     display: block

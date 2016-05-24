@@ -16,8 +16,9 @@ html
           i(class="fa fa-search fa-fw" aria-hidden="true")
         span#add
           i(class="fa fa-plus fa-fw" aria-hidden="true")
-        span#download
-          i(class="fa fa-download fa-fw" aria-hidden="true")
+        a(href="/default.json" download title="Download the entire file")
+          span#download
+            i(class="fa fa-download fa-fw" aria-hidden="true")
         span#stats
           i(class="fa fa-bar-chart fa-fw" aria-hidden="true")
       block info
@@ -34,3 +35,4 @@ html
     script(src='/js/commonFunctions.js')
     script(src='/js/showMain.js')
     script(src='/js/searchTitle.js')
+    script(src='/js/ui.js')

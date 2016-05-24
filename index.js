@@ -39,6 +39,16 @@ seilf.get('/item/:id', function(req, res) {
   }
 })
 
+// Get all records
+seilf.get('/default.json', function(req, res) {
+  var data = lib.entries.map(function(x) {
+    return x.content;
+  })
+  if (data) {
+    res.json(data);
+  }
+})
+
 seilf.listen(3000, function() {
   console.log('seilf listening on port 3000');
 })
