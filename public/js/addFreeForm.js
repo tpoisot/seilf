@@ -24,7 +24,7 @@ $(".freeform").keyup(_.debounce(function() {
         var $addlink = $("<a/>", {
           href: "#",
           onClick: "addRefByDoi('" + doi + "')",
-          html: "<i class='fa fa-fw fa-plus'></i>",
+          html: "<i class='fa fa-fw fa-floppy-o'></i>",
         }).addClass("crossrefAdd");
 
         $p.prepend($addlink)

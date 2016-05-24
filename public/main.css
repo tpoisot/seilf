@@ -129,6 +129,18 @@ li.entry:hover {
 #infobox .id {
   font-weight: bold;
 }
+#infobox .crossrefResult {
+  margin: 10px 0px;
+}
+#infobox .crossrefResult a {
+  border: none;
+  color: #e6e6e6;
+  font-weight: bold;
+}
+#infobox .crossrefResult a:hover {
+  border: none;
+  color: #f3f3f3;
+}
 #search {
   background-color: #e6e6e6;
   position: fixed;
