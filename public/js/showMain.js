@@ -49,7 +49,8 @@ function showMain(id) {
         var $link = $('<a/>', {
           text: data.DOI,
           href: "http://dx.doi.org/" + data.DOI,
-          title: "DOI link for " + data.title
+          title: "DOI link for " + data.title,
+          target: "_blank"
         });
         var $doi = $("<span/>").addClass("doi").append($link);
         $doi.prepend(icon('external-link'));
