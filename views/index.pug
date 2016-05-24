@@ -9,6 +9,17 @@ html
       title seilf
   body
     div#bar
+      div#buttons
+        span#home
+          i(class="fa fa-home fa-fw" aria-hidden="true")
+        span#lookup
+          i(class="fa fa-search fa-fw" aria-hidden="true")
+        span#add
+          i(class="fa fa-plus fa-fw" aria-hidden="true")
+        span#download
+          i(class="fa fa-download fa-fw" aria-hidden="true")
+        span#stats
+          i(class="fa fa-bar-chart fa-fw" aria-hidden="true")
       block info
         div#infobox
         span#footer
@@ -18,7 +29,7 @@ html
       block main
       block search
         span#search
-          i(class="fa fa-search" aria-hidden="true")
+          i(class="fa fa-filter fa-fw" aria-hidden="true")
           input.titlequery(type="text" placeholder="Search by title")
     script(src='/js/commonFunctions.js')
     script(src='/js/showMain.js')

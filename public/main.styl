@@ -4,6 +4,9 @@
 sans = "Fira Sans", sans-serif
 mono = "Fira Mono", monospace
 
+accent = rgb(63, 154, 205)
+mellow = rgb(230, 230, 230)
+
 a
   border-bottom: 1px dashed white
   color: white
@@ -26,15 +29,27 @@ html, body
 
 
 #bar
-  padding: 20px
-  background-color: rgb(63, 154, 205)
+  background-color: accent
   color: white
   min-height: 100%
   width: 35%
   position: fixed
   #footer
     position: absolute
-    bottom: 20px
+    bottom: 0px
+    padding: 20px
+  #buttons
+    width: 100%
+    color:  black
+    background-color: mellow
+    span
+      width: 20% !important
+      display: inline-block;
+      line-height: 20px
+      padding: 20px
+      text-align: center
+      &:hover
+        background-color: darken(mellow, 20%)
 
 #main
   color: rgb(83, 83, 83)
@@ -48,11 +63,14 @@ ul, li
   list-style: none
 
 li.entry
-  font-style: 20px
-  line-height: 25px
-  height: 50px !important
-  margin-bottom: 20px
+  font-size: 15px
+  line-height: 20px
+  height: 60px !important
+  margin-bottom: 0px
   padding: 10px
+  background-color: lighten(mellow, 80%)
+  &:nth-child(odd)
+    background-color: white
   &:hover
     color: rgb(0, 0, 0)
 
@@ -71,6 +89,7 @@ li.entry
     color: rgb(164, 164, 164)
 
 #infobox
+  padding: 20px
   span
     margin-bottom: 25px
     display: block
@@ -92,7 +111,7 @@ li.entry
     font-weight: bold
 
 #search
-  background-color: rgb(230, 230, 230)
+  background-color: mellow
   position: fixed
   bottom: 0
   right: 0
