@@ -1,3 +1,9 @@
+function icon(name) {
+  $icon = $("<i/>").addClass("fa").addClass("fa-fw").addClass("fa-" + name).attr(
+    'aria-hidden', 'true');
+  return $icon;
+}
+
 function showMain(id) {
   $.ajax({
     type: 'GET',
@@ -16,23 +22,40 @@ function showMain(id) {
       }
 
       if (data.author) {
-
-        var printedAuthorName = formatAuthorName(data.author[0]);
-        if (data.author.length > 2) {
-          printedAuthorName += ' et al.';
+        var $aut = $("<div/>").addClass("authors");
+        for (var i = 0; i < data.author.length; i++) {
+          var aType, aName;
+          if (data.author[i].literal) {
+            aType = "institution";
+            aName = data.author[i].literal;
+          } else {
+            aType = "user";
+            aName = data.author[i].family + ", " + data.author[i].given;
+          }
+          var $thisAuthor = $('<span/>').addClass("author").html(aName);
+          $thisAuthor.prepend(icon(aType));
+          $aut.append($thisAuthor);
         }
-        if (data.author.length == 2) {
-          printedAuthorName += ' & ' + formatAuthorName(data.author[1]);
-        }
-        var $aut = $("<span/>").addClass("author").html(printedAuthorName);
         $('#infobox').append($aut);
       }
 
       if (data.id) {
         var $id = $("<span/>").addClass("id").html(data.id);
-        $id.prepend('<i class="fa fa-key fa-fw" aria-hidden="true"></i>')
+        $id.prepend(icon('key'));
         $('#infobox').append($id);
       }
+
+      if (data.DOI) {
+        var $link = $('<a/>', {
+          text: data.DOI,
+          href: "http://dx.doi.org/" + data.DOI,
+          title: "DOI link for " + data.title
+        });
+        var $doi = $("<span/>").addClass("doi").append($link);
+        $doi.prepend(icon('external-link'));
+        $('#infobox').append($doi);
+      }
+
     }
   })
 }

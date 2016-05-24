@@ -23,7 +23,7 @@ var lib = new hylla.Library(path);
 
 seilf.get('/', function(req, res) {
   var entries = lib.entries.map(function(x) {
-    return x.content
+    return x.content;
   })
   res.render('main', {
     lib: entries

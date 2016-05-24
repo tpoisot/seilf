@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,300italic,300,400italic,500,500italic,700,700italic&subset=latin,greek")
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=latin,greek")
 
-sans = "Fira Sans"
-mono = "Fira Mono"
+sans = "Fira Sans", sans-serif
+mono = "Fira Mono", monospace
+
+a
+  border-bottom: 1px dashed white
+  color: white
+  text-decoration: none
+  &:hover
+    border-bottom: 1px solid white
 
 *
   margin: 0px 0px
   padding: 0px 0px
   box-sizing: padding-box
+  font-family: sans
 
 html, body
   font-family: sans, sans-serif
