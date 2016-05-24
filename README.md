@@ -22,7 +22,7 @@ same thing.
 
 ## Screencast!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H02sZBSbyaM" frameborder="0" allowfullscreen></iframe>
+[![Seilf](http://img.youtube.com/vi/H02sZBSbyaM/0.jpg)](https://www.youtube.com/watch?v=H02sZBSbyaM "seilf screencast")
 
 ## How to use it
 
