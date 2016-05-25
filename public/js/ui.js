@@ -44,6 +44,17 @@ function formatReferenceInMainList(data) {
     .addClass("author")
     .html(formatAuthors(data));
   $ref.append($author);
+  // Container
+  var $in = $("<span/>")
+    .addClass("in")
+    .html(data['container-title']);
+  $ref.append($in);
+  // ID
+  var $id = $("<span/>")
+    .addClass("id")
+    .html(data.id);
+  $ref.append($id);
+  // Return
   return $ref;
 }
 

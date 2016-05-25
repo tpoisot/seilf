@@ -17,7 +17,7 @@ body {
   min-height: 100%;
 }
 #bar {
-  background-color: #4472b0;
+  background-color: #0098d0;
   color: #fff;
   min-height: 100%;
   width: 35%;
@@ -30,7 +30,7 @@ body {
 }
 #bar #buttons {
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #dfdfdf;
 }
 #bar #buttons a:visited {
   color: none;
@@ -44,7 +44,7 @@ body {
   text-align: center;
 }
 #bar #buttons span:hover {
-  background-color: #c6c6c6;
+  background-color: #b2b2b2;
 }
 #main {
   color: #535353;
@@ -66,7 +66,7 @@ li.entry {
   height: 60px !important;
   margin-bottom: 0px;
   padding: 10px;
-  background-color: #fefefe;
+  background-color: #f9f9f9;
 }
 li.entry:nth-child(odd) {
   background-color: #fff;
@@ -88,7 +88,7 @@ li.entry:hover {
 #main .id {
   font-family: "Fira Mono", monospace, monospace;
   float: right;
-  color: #8caad3;
+  color: #4aceff;
 }
 #infobox {
   padding: 20px;
@@ -136,15 +136,15 @@ li.entry:hover {
 }
 #infobox .crossrefResult a {
   border: none;
-  color: #f8f8f8;
+  color: #dfdfdf;
   font-weight: bold;
 }
 #infobox .crossrefResult a:hover {
   border: none;
-  color: #fbfbfb;
+  color: #efefef;
 }
 #search {
-  background-color: #f8f8f8;
+  background-color: #dfdfdf;
   position: fixed;
   top: 0;
   right: 0;
@@ -164,5 +164,5 @@ li.entry:hover {
   width: 90%;
 }
 #search input:focus {
-  color: #4472b0;
+  color: #0098d0;
 }
