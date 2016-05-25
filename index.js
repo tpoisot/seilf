@@ -9,7 +9,8 @@ var seilf = express();
 seilf.set('view engine', 'pug');
 seilf.locals.pretty = true;
 
-var publicDir = require('path').join(__dirname, '/public');
+var publicDir = require('path')
+  .join(__dirname, '/public');
 
 seilf.use(stylus({
   src: publicDir,
@@ -19,11 +20,12 @@ seilf.use(stylus({
 
 seilf.use(express.static(publicDir));
 
-var path = require('path').dirname(require.main.filename);
+var path = require('path')
+  .dirname(require.main.filename);
 var lib = new hylla.Library(path);
 
-seilf.get('/', function(req, res) {
-  var entries = lib.entries.map(function(x) {
+seilf.get('/', function (req, res) {
+  var entries = lib.entries.map(function (x) {
     return x.content;
   })
   res.render('main', {
@@ -32,7 +34,7 @@ seilf.get('/', function(req, res) {
 });
 
 // Get infos for a single item
-seilf.get('/item/:id', function(req, res) {
+seilf.get('/item/:id', function (req, res) {
   var data = lib.entry(req.params.id);
   if (data) {
     console.log(data.id());
@@ -41,8 +43,8 @@ seilf.get('/item/:id', function(req, res) {
 })
 
 // Get all records
-seilf.get('/default.json', function(req, res) {
-  var data = lib.entries.map(function(x) {
+seilf.get('/default.json', function (req, res) {
+  var data = lib.entries.map(function (x) {
     return x.content;
   })
   if (data) {
@@ -51,11 +53,11 @@ seilf.get('/default.json', function(req, res) {
 })
 
 // Crossref full text search
-seilf.get('/crossref/:query', function(req, res) {
+seilf.get('/crossref/:query', function (req, res) {
   console.log(req.params.query);
   var crossrefUrl = "http://search.labs.crossref.org/dois?q="
   var crossrefResult = request(crossrefUrl + encodeURIComponent(req.params.query),
-    function(error, response, body) {
+    function (error, response, body) {
       console.log(response.statusCode);
       if (!error && response.statusCode == 200) {
         res.json(JSON.parse(body));
@@ -64,18 +66,21 @@ seilf.get('/crossref/:query', function(req, res) {
 })
 
 // Search by title
-seilf.get('/search/:query', function(req, res) {
+seilf.get('/search/:query', function (req, res) {
   res.json(lib.searchByTitle(req.params.query));
 })
 
 
-seilf.get('/doi/:doi', function(req, res) {
+seilf.get('/doi/:doi', function (req, res) {
   var doi = req.params.doi;
   if (doi) {
     // Check doi unicity
-    var doi_match = lib.entries.filter(function(e, i, a) {
+    var doi_match = lib.entries.filter(function (e, i, a) {
       if (e.doi())  {
-        return e.doi().trim().toLowerCase() == doi.trim().toLowerCase();
+        return e.doi()
+          .trim()
+          .toLowerCase() == doi.trim()
+          .toLowerCase();
       } else {
         return false;
       }
@@ -89,11 +94,12 @@ seilf.get('/doi/:doi', function(req, res) {
       // If new, return the ID after adding it.
       var infos = hylla.doi.refFromDoi(doi);
       var ref = lib.new(infos);
-      res.json(lib.entry(ref).content);
+      res.json(lib.entry(ref)
+        .content);
     }
   }
 });
 
-seilf.listen(3000, function() {
+seilf.listen(3000, function () {
   console.log('seilf listening on port 3000');
 })
