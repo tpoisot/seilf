@@ -1,7 +1,10 @@
 # Hylla
 
 `hylla` is a package to deal with bibliographic references in the citeproc-json
-format. It is currently very bare bones.
+format. It is currently very bare bones. If you want to see an example of it in
+action, try [seilf][seilf] (for the browser).
+
+[seilf]: http://github.com/tpoisot/seilf
 
 [![Code climate](https://img.shields.io/codeclimate/github/tpoisot/hylla.svg)](https://codeclimate.com/github/tpoisot/hylla)
 [![Travis](https://img.shields.io/travis/tpoisot/hylla.svg)](https://travis-ci.org/tpoisot/hylla)

@@ -63,6 +63,12 @@ seilf.get('/crossref/:query', function(req, res) {
     })
 })
 
+// Search by title
+seilf.get('/search/:query', function(req, res) {
+  res.json(lib.searchByTitle(req.params.query));
+})
+
+
 seilf.get('/doi/:doi', function(req, res) {
   var doi = req.params.doi;
   if (doi) {

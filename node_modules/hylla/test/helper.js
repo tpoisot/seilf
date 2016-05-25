@@ -23,6 +23,7 @@ before(function() {
     '10.1109/WI-IAT.2009.15'
   ];
   DOIs.map(addRefFromDoi);
+  lib.icanhazpdfs(lib.keys());
 });
 
 after(function() {

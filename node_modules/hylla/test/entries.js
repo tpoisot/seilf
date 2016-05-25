@@ -8,10 +8,11 @@ describe('Entries', function() {
       chai.assert.isDefined(lib.entry(ref_0_key));
     });
 
-    it('should return undefined when an invalid key is accessed', function() {
-      var lib = new hylla.Library(path.resolve("./test/data"));
-      chai.assert.isUndefined(lib.entry("ThisIsNotAnEntry"));
-    });
+    it('should return undefined when an invalid key is accessed',
+      function() {
+        var lib = new hylla.Library(path.resolve("./test/data"));
+        chai.assert.isUndefined(lib.entry("ThisIsNotAnEntry"));
+      });
   });
 
   describe('adding references', function() {
@@ -27,19 +28,8 @@ describe('Entries', function() {
       fs.unlinkSync(lib.records + "/" + newref + ".json");
     });
 
-    it('should create a new key with a unique identifier', function() {
-      var doi = "10.1111/ecog.01748";
-      var ref = hylla.doi.refFromDoi(doi);
-      var lib = new hylla.Library(path.resolve("./test/data"));
-      var newref = lib.new(ref);
-      var newref2 = lib.new(ref);
-      // First we check the key
-      chai.assert.equal(newref, 'gray15tts');
-      chai.assert.equal(newref2, 'gray15tts2');
-      // Then we remove the file
-      fs.unlinkSync(lib.records + "/" + newref + ".json");
-      fs.unlinkSync(lib.records + "/" + newref2 + ".json");
-    });
+    // Currently disabled because the DOI unicity condition in .new() will catch most of these
+    it('should create a new key with a unique identifier');
 
     it('should create a new file when a key is created', function() {
       var doi = "10.1111/ecog.01748";

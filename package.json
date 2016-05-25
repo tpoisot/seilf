@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "express-stylus": "^0.1.0",
-    "hylla": "0.0.1",
+    "hylla": "0.0.2",
     "nib": "^1.1.0",
     "pug": "^2.0.0-alpha7",
     "request": "^2.72.0",
