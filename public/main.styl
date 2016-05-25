@@ -4,8 +4,8 @@
 sans = "Fira Sans", sans-serif
 mono = "Fira Mono", monospace
 
-accent = rgb(0, 138, 189)
-mellow = rgb(230, 230, 230)
+accent = rgb(68, 114, 176)
+mellow = rgb(248, 248, 248)
 
 *
   margin: 0px 0px
@@ -85,7 +85,7 @@ li.entry
   .id
     font-family: mono, monospace
     float: right
-    color: mellow
+    color: lighten(accent, 40%)
 
 #infobox
   padding: 20px
@@ -98,13 +98,15 @@ li.entry
   span
     margin-bottom: 25px
     display: block
-    width: 100%
-    .fa
-      color: rgb(201, 201, 201)
-      margin-right: 10px
+    clear: both
+  .fa
+    color: rgb(201, 201, 201)
+    margin-right: 10px
   .author
     text-transform: lowercase;
     font-variant: small-caps;
+    display: inline-block !important
+    margin-right: 30px
   .title
     font-weight: 100
     font-size: 30px

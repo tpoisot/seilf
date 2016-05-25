@@ -24,16 +24,13 @@ function showMain(id) {
       if (data.author) {
         var $aut = $("<div/>").addClass("authors");
         for (var i = 0; i < data.author.length; i++) {
-          var aType, aName;
+          var aName;
           if (data.author[i].literal) {
-            aType = "institution";
             aName = data.author[i].literal;
           } else {
-            aType = "user";
             aName = data.author[i].family + ", " + data.author[i].given;
           }
           var $thisAuthor = $('<span/>').addClass("author").html(aName);
-          $thisAuthor.prepend(icon(aType));
           $aut.append($thisAuthor);
         }
         $('#infobox').append($aut);

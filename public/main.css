@@ -17,7 +17,7 @@ body {
   min-height: 100%;
 }
 #bar {
-  background-color: #008abd;
+  background-color: #4472b0;
   color: #fff;
   min-height: 100%;
   width: 35%;
@@ -30,7 +30,7 @@ body {
 }
 #bar #buttons {
   width: 100%;
-  background-color: #e6e6e6;
+  background-color: #f8f8f8;
 }
 #bar #buttons a:visited {
   color: none;
@@ -44,7 +44,7 @@ body {
   text-align: center;
 }
 #bar #buttons span:hover {
-  background-color: #b8b8b8;
+  background-color: #c6c6c6;
 }
 #main {
   color: #535353;
@@ -66,7 +66,7 @@ li.entry {
   height: 60px !important;
   margin-bottom: 0px;
   padding: 10px;
-  background-color: #fafafa;
+  background-color: #fefefe;
 }
 li.entry:nth-child(odd) {
   background-color: #fff;
@@ -88,7 +88,7 @@ li.entry:hover {
 #main .id {
   font-family: "Fira Mono", monospace, monospace;
   float: right;
-  color: #e6e6e6;
+  color: #8caad3;
 }
 #infobox {
   padding: 20px;
@@ -104,15 +104,17 @@ li.entry:hover {
 #infobox span {
   margin-bottom: 25px;
   display: block;
-  width: 100%;
+  clear: both;
 }
-#infobox span .fa {
+#infobox .fa {
   color: #c9c9c9;
   margin-right: 10px;
 }
 #infobox .author {
   text-transform: lowercase;
   font-variant: small-caps;
+  display: inline-block !important;
+  margin-right: 30px;
 }
 #infobox .title {
   font-weight: 100;
@@ -134,15 +136,15 @@ li.entry:hover {
 }
 #infobox .crossrefResult a {
   border: none;
-  color: #e6e6e6;
+  color: #f8f8f8;
   font-weight: bold;
 }
 #infobox .crossrefResult a:hover {
   border: none;
-  color: #f3f3f3;
+  color: #fbfbfb;
 }
 #search {
-  background-color: #e6e6e6;
+  background-color: #f8f8f8;
   position: fixed;
   top: 0;
   right: 0;
@@ -162,5 +164,5 @@ li.entry:hover {
   width: 90%;
 }
 #search input:focus {
-  color: #008abd;
+  color: #4472b0;
 }
