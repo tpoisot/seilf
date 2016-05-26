@@ -1,0 +1,137 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        25
+      ]
+    ],
+    "date-time": "2015-12-25T02:49:48Z",
+    "timestamp": 1451011788522
+  },
+  "reference-count": 50,
+  "publisher": "Wiley-Blackwell",
+  "issue": "7",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 832,
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2015-09-01T00:00:00Z",
+        "timestamp": 1441065600000
+      },
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2013,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1111/ele.12118",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        22
+      ]
+    ],
+    "date-time": "2013-05-22T06:45:23Z",
+    "timestamp": 1369205123000
+  },
+  "page": "853-861",
+  "source": "CrossRef",
+  "title": "Trophic complementarity drives the biodiversity-ecosystem functioning relationship in food webs",
+  "prefix": "http://id.crossref.org/prefix/10.1111",
+  "volume": "16",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Poisot",
+      "given": "Timothée"
+    },
+    {
+      "affiliation": [
+        {
+          "name": "Institut des Sciences de l'Évolution; UMR CNRS-UM2 5554, Université Montpellier 2; CC 065, Place Eugène Bataillon, 34095; Montpellier Cedex 05; France"
+        }
+      ],
+      "family": "Mouquet",
+      "given": "Nicolas"
+    },
+    {
+      "affiliation": [],
+      "family": "Gravel",
+      "given": "Dominique"
+    }
+  ],
+  "member": "http://id.crossref.org/member/311",
+  "published-online": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        22
+      ]
+    ]
+  },
+  "container-title": "Ecology Letters",
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "unspecified",
+      "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fele.12118"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2015,
+        10,
+        21
+      ]
+    ],
+    "date-time": "2015-10-21T20:17:17Z",
+    "timestamp": 1445458637000
+  },
+  "score": 1,
+  "subtitle": [],
+  "editor": [
+    {
+      "affiliation": [],
+      "family": "Adler",
+      "given": "Frederick"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        22
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1111/ele.12118",
+  "ISSN": [
+    "1461-023X"
+  ],
+  "subject": [
+    "Ecology, Evolution, Behavior and Systematics"
+  ],
+  "id": "pois13tcd"
+}
