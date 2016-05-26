@@ -38,6 +38,7 @@ seilf.get('/item/:id', function (req, res) {
   var data = lib.entry(req.params.id);
   if (data) {
     console.log(data.id());
+    // TODO: Test if there is a file
     res.json(data.content);
   }
 })
