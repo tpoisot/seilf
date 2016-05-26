@@ -8,36 +8,39 @@ html
     block title
       title seilf
   body
-    div#bar
-      div#buttons
+    div#top
+      span#buttons
         a(href="#" id="gohome" title="Home")
-          span#home
+          span#home.topBarButton
             i(class="fa fa-home fa-fw" aria-hidden="true")
         a(href="#" id="freeform" title="New reference (full-text search)")
-          span#lookup
+          span#lookup.topBarButton
             i(class="fa fa-search fa-fw" aria-hidden="true")
-        span#add
+        span#add.topBarButton
           i(class="fa fa-plus fa-fw" aria-hidden="true")
         a(href="/default.json" download title="Download the entire file")
-          span#download
+          span#download.topBarButton
             i(class="fa fa-download fa-fw" aria-hidden="true")
-        span#stats
+        span#stats.topBarButton
           i(class="fa fa-bar-chart fa-fw" aria-hidden="true")
+      span#search
+        span.searchByTitle
+          i(class="fa fa-filter fa-fw" aria-hidden="true")
+          input.titlequery(type="text" placeholder="Search by title")
+        span.addFreeForm
+          i(class="fa fa-search fa-fw" aria-hidden="true")
+          input.freeform(type="text" placeholder="Type-in a free-form citation")
+
+
+    div#bar
       block info
         div#infobox
-        span#footer
-          p #{lib.length} entries total
+      span#footer
+        p #{lib.length} entries total
 
     div#main
       block main
-      block search
-        span#search
-          span.searchByTitle
-            i(class="fa fa-filter fa-fw" aria-hidden="true")
-            input.titlequery(type="text" placeholder="Search by title")
-          span.addFreeForm
-            i(class="fa fa-search fa-fw" aria-hidden="true")
-            input.freeform(type="text" placeholder="Type-in a free-form citation")
+
     script(src='/js/commonFunctions.js')
     script(src='/js/showMain.js')
     script(src='/js/addFreeForm.js')

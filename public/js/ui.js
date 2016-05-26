@@ -44,6 +44,9 @@ function formatReferenceInMainList(data) {
     .addClass("author")
     .html(formatAuthors(data));
   $ref.append($author);
+  $ref.append($("<span/>")
+    .addClass("spacer")
+    .html(" in "));
   // Container
   var $in = $("<span/>")
     .addClass("in")

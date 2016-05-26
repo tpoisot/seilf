@@ -16,11 +16,54 @@ body {
   height: 100%;
   min-height: 100%;
 }
+#top {
+  background-color: #2c3e50;
+  color: #1abc9c;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+}
+#top #buttons a:visited {
+  color: none;
+}
+#top #buttons span {
+  padding: 20px;
+  color: #1abc9c;
+  width: 80px;
+  display: inline-block;
+  text-align: center;
+}
+#top #buttons span:hover {
+  background-color: #233240;
+}
+#top #search {
+  display: inline-block;
+  height: 60px;
+  width: 50% !important;
+}
+#top #search .fa {
+  color: #829ebb;
+  text-align: center;
+  width: 80px;
+}
+#top #search input {
+  border: 0px solid #fff;
+  background-color: transparent;
+  color: #ecf0f1;
+  width: 90% !important;
+}
+#top #search input:focus {
+  color: #1abc9c;
+}
 #bar {
-  background-color: #0098d0;
-  color: #fff;
-  min-height: 100%;
-  width: 35%;
+  background-color: #ecf0f1;
+  color: #000;
+  width: 400px;
+  height: 100%;
+  padding-top: 60px;
   position: fixed;
 }
 #bar #footer {
@@ -28,27 +71,10 @@ body {
   bottom: 0px;
   padding: 20px;
 }
-#bar #buttons {
-  width: 100%;
-  background-color: #dfdfdf;
-}
-#bar #buttons a:visited {
-  color: none;
-}
-#bar #buttons span {
-  color: #000;
-  width: 20% !important;
-  display: inline-block;
-  line-height: 20px;
-  padding: 20px;
-  text-align: center;
-}
-#bar #buttons span:hover {
-  background-color: #b2b2b2;
-}
 #main {
   color: #535353;
-  width: 65%;
+  width: 100%;
+  padding-left: 400px;
   right: 0px;
   position: absolute;
   top: 0px;
@@ -66,7 +92,7 @@ li.entry {
   height: 60px !important;
   margin-bottom: 0px;
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: #f7f9f9;
 }
 li.entry:nth-child(odd) {
   background-color: #fff;
@@ -88,18 +114,19 @@ li.entry:hover {
 #main .id {
   font-family: "Fira Mono", monospace, monospace;
   float: right;
-  color: #4aceff;
+  color: #f0b27a;
 }
 #infobox {
   padding: 20px;
+  font-size: 14px;
 }
 #infobox a {
-  border-bottom: 1px dashed #fff;
-  color: #fff;
+  border-bottom: 1px dashed #e67e22;
+  color: #000;
   text-decoration: none;
 }
 #infobox a:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #e67e22;
 }
 #infobox span {
   margin-bottom: 25px;
@@ -107,7 +134,7 @@ li.entry:hover {
   clear: both;
 }
 #infobox .fa {
-  color: #c9c9c9;
+  color: #e67e22;
   margin-right: 10px;
 }
 #infobox .author {
@@ -118,7 +145,8 @@ li.entry:hover {
 }
 #infobox .title {
   font-weight: 100;
-  font-size: 30px;
+  font-size: 20px;
+  line-height: 25px;
 }
 #infobox .in {
   font-weight: bold;
@@ -136,33 +164,10 @@ li.entry:hover {
 }
 #infobox .crossrefResult a {
   border: none;
-  color: #dfdfdf;
+  color: #2c3e50;
   font-weight: bold;
 }
 #infobox .crossrefResult a:hover {
   border: none;
-  color: #efefef;
-}
-#search {
-  background-color: #dfdfdf;
-  position: fixed;
-  top: 0;
-  right: 0;
-  display: block;
-  width: 65%;
-  padding: 20px;
-  height: 60px;
-}
-#search .fa {
-  font-weight: bold;
-  color: #000;
-  padding-right: 20px;
-}
-#search input {
-  border: 0px solid #fff;
-  background-color: transparent;
-  width: 90%;
-}
-#search input:focus {
-  color: #0098d0;
+  color: #829ebb;
 }

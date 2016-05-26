@@ -4,8 +4,13 @@
 sans = "Fira Sans", sans-serif
 mono = "Fira Mono", monospace
 
-accent = rgb(0, 152, 208)
-mellow = rgb(223, 223, 223)
+colorSideBar = rgb(236, 240, 241)
+colorTopBar = rgb(44, 62, 80)
+colorTopBarElement = rgb(26, 188, 156)
+colorOtherUIElement = rgb(230, 126, 34)
+
+buttonwidth = 80px
+barwidth = 5 * buttonwidth
 
 *
   margin: 0px 0px
@@ -20,36 +25,59 @@ html, body
   height: 100%
   min-height: 100%
 
+#top
+  background-color: colorTopBar
+  color: colorTopBarElement
+  width: 100%
+  height: 60px
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 999999
+  #buttons
+    a
+      &:visited
+        color: none
+    span
+      padding: 20px
+      color: colorTopBarElement
+      width: buttonwidth
+      display: inline-block
+      text-align: center
+      &:hover
+        background-color: darken(colorTopBar, 20%)
+  #search
+    display: inline-block
+    height: 60px
+    width: 50% !important
+    .fa
+      color: lighten(colorTopBar, 50%)
+      text-align: center
+      width: buttonwidth
+    input
+      border: 0px solid white
+      background-color: transparent
+      color: colorSideBar
+      width: 90% !important
+      &:focus
+        color colorTopBarElement
 
 #bar
-  background-color: accent
-  color: white
-  min-height: 100%
-  width: 35%
+  background-color: colorSideBar
+  color: black
+  width: barwidth
+  height: 100%
+  padding-top: 60px
   position: fixed
   #footer
     position: absolute
     bottom: 0px
     padding: 20px
-  #buttons
-    width: 100%
-    background-color: mellow
-    a
-      &:visited
-        color: none
-    span
-      color:  black
-      width: 20% !important
-      display: inline-block;
-      line-height: 20px
-      padding: 20px
-      text-align: center
-      &:hover
-        background-color: darken(mellow, 20%)
 
 #main
   color: rgb(83, 83, 83)
-  width: 65%
+  width: 100%
+  padding-left: barwidth
   right: 0px
   position: absolute
   top: 0px
@@ -67,7 +95,7 @@ li.entry
   height: 60px !important
   margin-bottom: 0px
   padding: 10px
-  background-color: lighten(mellow, 80%)
+  background-color: lighten(colorSideBar, 60%)
   &:nth-child(odd)
     background-color: white
   &:hover
@@ -85,22 +113,23 @@ li.entry
   .id
     font-family: mono, monospace
     float: right
-    color: lighten(accent, 40%)
+    color: lighten(colorOtherUIElement, 40%)
 
 #infobox
   padding: 20px
+  font-size: 14px
   a
-    border-bottom: 1px dashed white
-    color: white
+    border-bottom: 1px dashed colorOtherUIElement
+    color: black
     text-decoration: none
     &:hover
-      border-bottom: 1px solid white
+      border-bottom: 1px solid colorOtherUIElement
   span
     margin-bottom: 25px
     display: block
     clear: both
   .fa
-    color: rgb(201, 201, 201)
+    color: colorOtherUIElement
     margin-right: 10px
   .author
     text-transform: lowercase;
@@ -109,7 +138,8 @@ li.entry
     margin-right: 30px
   .title
     font-weight: 100
-    font-size: 30px
+    font-size: 20px
+    line-height: 25px
   .in
     font-weight: bold
   .id, .doi, .url
@@ -120,28 +150,8 @@ li.entry
     margin: 10px 0px
     a
       border: none
-      color: mellow
+      color: colorTopBar
       font-weight: bold
       &:hover
         border: none
-        color: lighten(mellow, 50%)
-
-#search
-  background-color: mellow
-  position: fixed
-  top: 0
-  right: 0
-  display: block
-  width: 65%
-  padding: 20px
-  height: 60px
-  .fa
-    font-weight: bold
-    color: black
-    padding-right: 20px
-  input
-    border: 0px solid white
-    background-color: transparent
-    width: 90%
-    &:focus
-      color accent
+        color: lighten(colorTopBar, 50%)
