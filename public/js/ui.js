@@ -37,6 +37,7 @@ function formatReferenceInMainList(data) {
   // Icon type
   var itype = "file-text";
   if (data.type == "monograph") itype = "book";
+  if (data.type == "book-chapter") itype = "bookmark";
   var $type = icon(itype)
     .addClass("inlist");
   $ref.append($type);

@@ -1,0 +1,112 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        5,
+        17
+      ]
+    ],
+    "date-time": "2016-05-17T08:41:15Z",
+    "timestamp": 1463474475845
+  },
+  "reference-count": 0,
+  "publisher": "Wiley-Blackwell",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            5,
+            1
+          ]
+        ],
+        "date-time": "2016-05-01T00:00:00Z",
+        "timestamp": 1462060800000
+      },
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1111/1365-2745.12607",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        5,
+        17
+      ]
+    ],
+    "date-time": "2016-05-17T07:13:33Z",
+    "timestamp": 1463469213000
+  },
+  "source": "CrossRef",
+  "title": "Light availability experienced in the field affects ability of following generations to respond to shading in an annual grassland plant",
+  "prefix": "http://id.crossref.org/prefix/10.1111",
+  "author": [
+    {
+      "affiliation": [
+        {
+          "name": "Technical University of Munich; Department of Ecology and Ecosystem Management, Restoration Ecology; Emil-Ramann-Str. 6 D-85354 Freising Germany"
+        }
+      ],
+      "family": "Heger",
+      "given": "Tina"
+    }
+  ],
+  "member": "http://id.crossref.org/member/311",
+  "container-title": "J Ecol",
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf",
+      "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1365-2745.12607"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2016,
+        5,
+        17
+      ]
+    ],
+    "date-time": "2016-05-17T07:13:33Z",
+    "timestamp": 1463469213000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        5
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1111/1365-2745.12607",
+  "archive": [
+    "Portico"
+  ],
+  "ISSN": [
+    "0022-0477"
+  ],
+  "subject": [
+    "Plant Science",
+    "Ecology",
+    "Ecology, Evolution, Behavior and Systematics"
+  ],
+  "id": "hege16lae"
+}

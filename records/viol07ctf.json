@@ -1,0 +1,137 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        22
+      ]
+    ],
+    "date-time": "2015-12-22T07:55:15Z",
+    "timestamp": 1450770915877
+  },
+  "reference-count": 71,
+  "publisher": "Wiley-Blackwell",
+  "issue": "5",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 3045,
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2015-09-01T00:00:00Z",
+        "timestamp": 1441065600000
+      },
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2007,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1111/j.0030-1299.2007.15559.x",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        12,
+        3
+      ]
+    ],
+    "date-time": "2007-12-03T02:57:57Z",
+    "timestamp": 1196650677000
+  },
+  "page": "882-892",
+  "source": "CrossRef",
+  "title": "Let the concept of trait be functional!",
+  "prefix": "http://id.crossref.org/prefix/10.1111",
+  "volume": "116",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Violle",
+      "given": "Cyrille"
+    },
+    {
+      "affiliation": [],
+      "family": "Navas",
+      "given": "Marie-Laure"
+    },
+    {
+      "affiliation": [],
+      "family": "Vile",
+      "given": "Denis"
+    },
+    {
+      "affiliation": [],
+      "family": "Kazakou",
+      "given": "Elena"
+    },
+    {
+      "affiliation": [],
+      "family": "Fortunel",
+      "given": "Claire"
+    },
+    {
+      "affiliation": [],
+      "family": "Hummel",
+      "given": "Irène"
+    },
+    {
+      "affiliation": [],
+      "family": "Garnier",
+      "given": "Eric"
+    }
+  ],
+  "member": "http://id.crossref.org/member/311",
+  "container-title": "Oikos",
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "unspecified",
+      "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.0030-1299.2007.15559.x"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2015,
+        10,
+        22
+      ]
+    ],
+    "date-time": "2015-10-22T16:19:02Z",
+    "timestamp": 1445530742000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2007,
+        5
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1111/j.0030-1299.2007.15559.x",
+  "ISSN": [
+    "0030-1299",
+    "1600-0706"
+  ],
+  "subject": [
+    "Ecology, Evolution, Behavior and Systematics"
+  ],
+  "id": "viol07ctf"
+}

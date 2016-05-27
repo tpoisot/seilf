@@ -1,0 +1,130 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        22
+      ]
+    ],
+    "date-time": "2015-12-22T14:32:46Z",
+    "timestamp": 1450794766790
+  },
+  "reference-count": 0,
+  "publisher": "Elsevier BV",
+  "issue": "4",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "start": {
+        "date-parts": [
+          [
+            2006,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2006-04-01T00:00:00Z",
+        "timestamp": 1143849600000
+      },
+      "URL": "http://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2006,
+        4
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.tree.2006.02.002",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2006,
+        2,
+        20
+      ]
+    ],
+    "date-time": "2006-02-20T15:57:23Z",
+    "timestamp": 1140451043000
+  },
+  "page": "178-185",
+  "source": "CrossRef",
+  "title": "Rebuilding community ecology from functional traits",
+  "prefix": "http://id.crossref.org/prefix/10.1016",
+  "volume": "21",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "MCGILL",
+      "given": "B"
+    },
+    {
+      "affiliation": [],
+      "family": "ENQUIST",
+      "given": "B"
+    },
+    {
+      "affiliation": [],
+      "family": "WEIHER",
+      "given": "E"
+    },
+    {
+      "affiliation": [],
+      "family": "WESTOBY",
+      "given": "M"
+    }
+  ],
+  "member": "http://id.crossref.org/member/78",
+  "container-title": "Trends in Ecology & Evolution",
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/xml",
+      "URL": "http://api.elsevier.com/content/article/PII:S0169534706000334?httpAccept=text/xml"
+    },
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/plain",
+      "URL": "http://api.elsevier.com/content/article/PII:S0169534706000334?httpAccept=text/plain"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2015,
+        11,
+        20
+      ]
+    ],
+    "date-time": "2015-11-20T00:37:12Z",
+    "timestamp": 1447979832000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2006,
+        4
+      ]
+    ]
+  },
+  "alternative-id": [
+    "S0169534706000334"
+  ],
+  "URL": "http://dx.doi.org/10.1016/j.tree.2006.02.002",
+  "ISSN": [
+    "0169-5347"
+  ],
+  "subject": [
+    "Ecology, Evolution, Behavior and Systematics"
+  ],
+  "id": "mcgi06rce"
+}
