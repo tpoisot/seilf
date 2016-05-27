@@ -73,7 +73,6 @@ function reloadEntries() {
     type: 'GET',
     url: '/default.json',
     success: function (data) {
-      console.log(data);
       $("#entries")
         .empty();
       for (var i = 0; i < data.length; i++) {
