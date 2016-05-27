@@ -42,7 +42,7 @@ body {
 #top #search {
   display: inline-block;
   height: 60px;
-  width: 50% !important;
+  width: 50%;
 }
 #top #search .fa {
   color: #8bc1e5;
@@ -53,7 +53,8 @@ body {
   border: 0px solid #fff;
   background-color: transparent;
   color: #fff;
-  width: 90% !important;
+  width: 50%;
+  height: !important;
 }
 #top #search input:focus {
   color: #fff;
