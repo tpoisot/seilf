@@ -1,0 +1,82 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        25
+      ]
+    ],
+    "date-time": "2015-12-25T06:02:37Z",
+    "timestamp": 1451023357610
+  },
+  "reference-count": 0,
+  "publisher": "Oxford University Press (OUP)",
+  "published-print": {
+    "date-parts": [
+      [
+        2012,
+        7,
+        19
+      ]
+    ]
+  },
+  "DOI": "10.1093/acprof:oso/9780199642250.003.0011",
+  "type": "book-chapter",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        12,
+        18
+      ]
+    ],
+    "date-time": "2013-12-18T12:03:54Z",
+    "timestamp": 1387368234000
+  },
+  "page": "149-163",
+  "source": "CrossRef",
+  "title": "Biodiversity and ecosystem functioning: an ecosystem-level approach",
+  "prefix": "http://id.crossref.org/prefix/10.1093",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Raffaelli",
+      "given": "David"
+    },
+    {
+      "affiliation": [],
+      "family": "Friedlander",
+      "given": "Alan M."
+    }
+  ],
+  "member": "http://id.crossref.org/member/286",
+  "container-title": "Frameworks, methodologies, and integration",
+  "deposited": {
+    "date-parts": [
+      [
+        2013,
+        12,
+        18
+      ]
+    ],
+    "date-time": "2013-12-18T12:03:55Z",
+    "timestamp": 1387368235000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        7,
+        19
+      ]
+    ]
+  },
+  "ISBN": [
+    "http://id.crossref.org/isbn/9780199642250"
+  ],
+  "URL": "http://dx.doi.org/10.1093/acprof:oso/9780199642250.003.0011",
+  "id": "raff12bef"
+}

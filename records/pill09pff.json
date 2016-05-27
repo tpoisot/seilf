@@ -1,0 +1,105 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        27
+      ]
+    ],
+    "date-time": "2015-12-27T18:41:49Z",
+    "timestamp": 1451241709356
+  },
+  "reference-count": 55,
+  "publisher": "Springer Science + Business Media",
+  "issue": "4",
+  "published-print": {
+    "date-parts": [
+      [
+        2010,
+        11
+      ]
+    ]
+  },
+  "DOI": "10.1007/s12080-009-0065-1",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2009,
+        12,
+        4
+      ]
+    ],
+    "date-time": "2009-12-04T10:09:38Z",
+    "timestamp": 1259921378000
+  },
+  "page": "223-237",
+  "source": "CrossRef",
+  "title": "A patch-dynamic framework for food web metacommunities",
+  "prefix": "http://id.crossref.org/prefix/10.1007",
+  "volume": "3",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Pillai",
+      "given": "Pradeep"
+    },
+    {
+      "affiliation": [],
+      "family": "Loreau",
+      "given": "Michel"
+    },
+    {
+      "affiliation": [],
+      "family": "Gonzalez",
+      "given": "Andrew"
+    }
+  ],
+  "member": "http://id.crossref.org/member/297",
+  "published-online": {
+    "date-parts": [
+      [
+        2009,
+        12,
+        5
+      ]
+    ]
+  },
+  "container-title": "Theoretical Ecology",
+  "deposited": {
+    "date-parts": [
+      [
+        2013,
+        4,
+        11
+      ]
+    ],
+    "date-time": "2013-04-11T20:38:43Z",
+    "timestamp": 1365712723000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2009,
+        12,
+        5
+      ]
+    ]
+  },
+  "alternative-id": [
+    "65"
+  ],
+  "URL": "http://dx.doi.org/10.1007/s12080-009-0065-1",
+  "ISSN": [
+    "1874-1738",
+    "1874-1746"
+  ],
+  "subject": [
+    "Ecological Modelling",
+    "Ecology"
+  ],
+  "id": "pill09pff"
+}

@@ -1,0 +1,107 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        26
+      ]
+    ],
+    "date-time": "2016-03-26T09:48:17Z",
+    "timestamp": 1458985697704
+  },
+  "reference-count": 39,
+  "publisher": "Wiley-Blackwell",
+  "issue": "3",
+  "license": [
+    {
+      "content-version": "tdm",
+      "delay-in-days": 4201,
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2015-09-01T00:00:00Z",
+        "timestamp": 1441065600000
+      },
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2004,
+        3
+      ]
+    ]
+  },
+  "DOI": "10.1111/j.0030-1299.2004.12685.x",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2004,
+        2,
+        16
+      ]
+    ],
+    "date-time": "2004-02-16T15:02:21Z",
+    "timestamp": 1076943741000
+  },
+  "page": "606-611",
+  "source": "CrossRef",
+  "title": "Does functional redundancy exist?",
+  "prefix": "http://id.crossref.org/prefix/10.1111",
+  "volume": "104",
+  "author": [
+    {
+      "affiliation": [],
+      "family": "Loreau",
+      "given": "Michel"
+    }
+  ],
+  "member": "http://id.crossref.org/member/311",
+  "container-title": "Oikos",
+  "link": [
+    {
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "unspecified",
+      "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.0030-1299.2004.12685.x"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2015,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2015-10-24T02:42:29Z",
+    "timestamp": 1445654549000
+  },
+  "score": 1,
+  "subtitle": [],
+  "issued": {
+    "date-parts": [
+      [
+        2004,
+        3
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.1111/j.0030-1299.2004.12685.x",
+  "ISSN": [
+    "0030-1299",
+    "1600-0706"
+  ],
+  "subject": [
+    "Ecology, Evolution, Behavior and Systematics"
+  ],
+  "id": "lore04fre"
+}

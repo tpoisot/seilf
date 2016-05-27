@@ -4,10 +4,11 @@
 sans = "Fira Sans", sans-serif
 mono = "Fira Mono", monospace
 
-colorSideBar = rgb(236, 240, 241)
-colorTopBar = rgb(44, 62, 80)
-colorTopBarElement = rgb(26, 188, 156)
-colorOtherUIElement = rgb(230, 126, 34)
+colorSideBar = white
+colorTopBar = #2980b9
+colorTopBarElement = white
+colorOtherUIElement = #3498db
+colorActive = lighten(#f1c40f, 95%)
 
 buttonwidth = 80px
 barwidth = 5 * buttonwidth
@@ -93,14 +94,18 @@ ul#entries
 li.entry
   font-size: 15px
   line-height: 20px
-  height: 60px !important
-  margin-bottom: 0px
+  // height: 60px !important
+  margin: 10px
   padding: 10px
-  background-color: lighten(colorSideBar, 60%)
-  &:nth-child(odd)
-    background-color: white
+  border: 0px solid black
+  box-shadow: 0px 0px 2px lighten(black, 80%)
   &:hover
-    color: rgb(0, 0, 0)
+    background-color: lighten(colorOtherUIElement, 90%)
+    color: black
+  .inlist
+    float: right
+    font-size: 15px
+    color: lighten(black, 50%)
 
 #main
   .title
@@ -114,7 +119,10 @@ li.entry
   .id
     font-family: mono, monospace
     float: right
-    color: lighten(colorOtherUIElement, 40%)
+    color: colorOtherUIElement
+
+.active
+  background-color: colorActive !important
 
 #infobox
   padding: 20px

@@ -34,6 +34,12 @@ function formatReferenceInMainList(data) {
     .addClass("entry")
     .attr("onClick", "showMain('" + data.id + "')")
     .attr("id", data.id);
+  // Icon type
+  var itype = "file-text";
+  if (data.type == "monograph") itype = "book";
+  var $type = icon(itype)
+    .addClass("inlist");
+  $ref.append($type);
   // Title
   var $title = $("<span/>")
     .addClass("title")
