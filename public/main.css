@@ -15,10 +15,13 @@ body {
   padding: 0px 0px !important;
   height: 100%;
   min-height: 100%;
+  background-color: #f8f8f8;
 }
 #top {
   background-color: #2980b9;
   color: #fff;
+  -webkit-box-shadow: 0px 0px 5px #6e6e6e;
+  box-shadow: 0px 0px 5px #6e6e6e;
   width: 100%;
   height: 60px;
   position: fixed;
@@ -60,8 +63,7 @@ body {
   color: #fff;
 }
 #bar {
-  background-color: #fff;
-  color: #000;
+  color: #474747;
   width: 400px;
   height: 100%;
   padding-top: 60px;
@@ -93,12 +95,15 @@ li.entry {
   line-height: 20px;
   margin: 10px;
   padding: 10px;
+  background-color: #fff;
   border: 0px solid #000;
-  -webkit-box-shadow: 0px 0px 2px #ccc;
-  box-shadow: 0px 0px 2px #ccc;
+  -webkit-box-shadow: 0px 0px 2px #6e6e6e;
+  box-shadow: 0px 0px 2px #6e6e6e;
+  color: #474747;
 }
 li.entry:hover {
-  background-color: #ebf5fb;
+  -webkit-box-shadow: 0px 0px 2px #2b2b2b;
+  box-shadow: 0px 0px 2px #2b2b2b;
   color: #000;
 }
 li.entry .inlist {
