@@ -1,27 +1,25 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,300italic,300,400italic,500,500italic,700,700italic&subset=latin,greek");
-@import url("https://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=latin,greek");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,greek");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,100italic,100,300,300italic,400italic,500,500italic,700,700italic&subset=latin,greek");
 * {
   margin: 0px 0px;
   padding: 0px 0px;
   -webkit-box-sizing: padding-box;
   -moz-box-sizing: padding-box;
   box-sizing: padding-box;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 html,
 body {
-  font-family: "Fira Sans", sans-serif, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   margin: 0px 0px !important;
   padding: 0px 0px !important;
   height: 100%;
   min-height: 100%;
-  background-color: #f8f8f8;
+  background-color: #fcfcfc;
 }
 #top {
   background-color: #2980b9;
   color: #fff;
-  -webkit-box-shadow: 0px 0px 5px #6e6e6e;
-  box-shadow: 0px 0px 5px #6e6e6e;
   width: 100%;
   height: 60px;
   position: fixed;
@@ -93,23 +91,27 @@ ul#entries {
 li.entry {
   font-size: 15px;
   line-height: 20px;
-  margin: 10px;
   padding: 10px;
   background-color: #fff;
-  border: 0px solid #000;
-  -webkit-box-shadow: 0px 0px 2px #6e6e6e;
-  box-shadow: 0px 0px 2px #6e6e6e;
+  border-left: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
   color: #474747;
 }
 li.entry:hover {
-  -webkit-box-shadow: 0px 0px 2px #2b2b2b;
-  box-shadow: 0px 0px 2px #2b2b2b;
+  background-color: #fcfcfc;
   color: #000;
 }
+li.entry:hover .inlist {
+  color: #8f8f8f;
+}
 li.entry .inlist {
-  float: right;
-  font-size: 15px;
-  color: #808080;
+  float: left;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  margin-right: 10px;
+  color: #d2d2d2;
 }
 #main .title {
   font-weight: bold;
@@ -123,7 +125,7 @@ li.entry .inlist {
   font-style: italic;
 }
 #main .id {
-  font-family: "Fira Mono", monospace, monospace;
+  font-family: "Roboto Mono", monospace, monospace;
   float: right;
   color: #3498db;
 }
@@ -158,17 +160,17 @@ li.entry .inlist {
   margin-right: 30px;
 }
 #infobox .title {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 20px;
   line-height: 25px;
 }
 #infobox .in {
-  font-weight: bold;
+  font-weight: 500;
 }
 #infobox .id,
 #infobox .doi,
 #infobox .url {
-  font-family: "Fira Mono", monospace, monospace;
+  font-family: "Roboto Mono", monospace, monospace;
 }
 #infobox .id {
   font-weight: bold;

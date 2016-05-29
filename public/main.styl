@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,300italic,300,400italic,500,500italic,700,700italic&subset=latin,greek")
-@import url("https://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=latin,greek")
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,greek");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,100italic,100,300,300italic,400italic,500,500italic,700,700italic&subset=latin,greek");
 
-sans = "Fira Sans", sans-serif
-mono = "Fira Mono", monospace
+sans = "Roboto", sans-serif
+mono = "Roboto Mono", monospace
 
 colorSideBar = white
 colorTopBar = #2980b9
 colorTopBarElement = white
 colorOtherUIElement = #3498db
 colorActive = lighten(#f1c40f, 95%)
-colorShadow = rgb(110, 110, 110)
-colorShadowActive = rgb(43, 43, 43)
-colorBackground = rgb(248, 248, 248)
+colorShadow = rgb(210, 210, 210)
+colorShadowActive = rgb(143, 143, 143)
+colorBackground = rgb(252, 252, 252)
 colorMainText = rgb(71, 71, 71)
 
 buttonwidth = 80px
@@ -34,7 +34,6 @@ html, body
 #top
   background-color: colorTopBar
   color: colorTopBarElement
-  box-shadow: 0px 0px 5px colorShadow
   width: 100%
   height: 60px
   position: fixed
@@ -99,19 +98,24 @@ ul#entries
 li.entry
   font-size: 15px
   line-height: 20px
-  margin: 10px
   padding: 10px
   background-color: white
-  border: 0px solid black
-  box-shadow: 0px 0px 2px colorShadow
+  border-left: 1px solid colorShadow
+  border-bottom: 1px solid colorShadow
   color: colorMainText
   &:hover
-    box-shadow: 0px 0px 2px colorShadowActive
+    background-color: colorBackground
     color: black
+    .inlist
+      color: colorShadowActive
   .inlist
-    float: right
-    font-size: 15px
-    color: lighten(black, 50%)
+    float: left
+    width: 40px
+    height: 40px
+    font-size: 20px
+    line-height: 40px
+    margin-right: 10px
+    color: colorShadow
 
 #main
   .title
@@ -152,11 +156,11 @@ li.entry
     display: inline-block !important
     margin-right: 30px
   .title
-    font-weight: 100
+    font-weight: 300
     font-size: 20px
     line-height: 25px
   .in
-    font-weight: bold
+    font-weight: 500
   .id, .doi, .url
     font-family: mono, monospace
   .id
